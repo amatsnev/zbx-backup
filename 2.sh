@@ -42,8 +42,3 @@ if args.last_backup:
  d=datetime.datetime.strptime(s, "%Y%m%d%H%M").timestamp()
  print (d)
 
- 
-#print (dict1)
-#[ print(dict1[x])  for x in list(dict1) ]
-#print (list(dict1))
-#+' ' + dict1[x][0])
