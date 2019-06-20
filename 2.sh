@@ -35,8 +35,6 @@ if args.list_backups:
 
 if args.last_backup: 
  lf=(dict1[args.last_backup][0])
-# print (lf)
-# print (dict1[args.last_backup])
  s=lf[0]+lf[1]+lf[2]+lf[3]+lf[4]
 
  d=datetime.datetime.strptime(s, "%Y%m%d%H%M").timestamp()
