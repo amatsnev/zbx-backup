@@ -1,2 +1,2 @@
 # zbx-backup
-1
+zabbix script check backup  date
